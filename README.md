@@ -1,5 +1,4 @@
-# Jing-Lu
-EEG preprocessing in Matlab
+# EEG preprocessing in Matlab
 EEG pre-processing mainly includes the following processes.
 1. convert the raw data format into a .set file that can be read by EEGLAB (demo01_move_file_and_change_SET_format.m)
 2. localize the electrode information of EEG data and convert the EEG reference to bilateral mastoid reference, then band-pass filtering (0.1-40HZ) (demo02_Preprocess_of_Step1_before_visual_inspection.m )
